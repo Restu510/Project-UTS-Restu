@@ -1,0 +1,173 @@
+header{
+    background-color:lightskyblue;
+    border-bottom: 7px solid blue;
+}
+
+#Bagian_atas{
+    background-color: white;
+    padding: 10px;
+}
+
+#Bagian_bawah{
+    background-color: rgb(54, 54, 54);
+    margin-top: -25px;
+    padding: 10px;
+}
+
+#Bagian_bawah p {
+    margin-top: -22px;
+    color: white;
+}
+
+#Bagian_bawah h1 {
+    color: white;
+}
+
+#Projek{
+    margin-top: -1px;
+}
+
+.teks_header{
+    margin-left: 150px;
+}
+
+.latar{
+    background-color: rgb(44, 44, 44);
+    margin: 20px;
+    padding: 10px;
+    overflow-x: hidden;
+}
+
+table {
+    margin-top: 20px;
+    margin-left: 25PX;
+    border-collapse: collapse; 
+    width: 60%;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 8px; 
+    color: white; 
+}
+
+tr:nth-child(odd){
+    background-color: rgb(65, 69, 83);
+}
+tr:nth-child(even){
+    background-color: rgb(82, 61, 61);
+}
+
+.center{
+    text-align: center;
+}
+
+#rank{
+    font-size: 50px;
+}
+
+.title-with-image {
+    position: relative;
+}
+
+.Atur_gambar {
+    float: left;
+    margin-right: 10px;
+}
+
+.title{
+    position: relative;
+    color: lightskyblue;
+    font-weight: bold;
+    font-size: 20px;
+    top: 25px;
+}
+
+.Info_judul {
+    position: relative;
+    top: 40px;
+}
+
+.Info_judul p{
+    margin: 0;
+}
+
+.skor{
+    display: inline-block;
+}
+
+.fa-star{
+    color: gold;
+    margin-right: 5px;
+}
+
+h2{
+    margin-left: 25px;
+    margin-bottom: -15px;
+    color: white;
+    font-weight: bold;
+}
+ 
+.list_popular{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    margin-left: -25px;
+    margin-right: 25px;
+}
+
+.list_popular li{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.list_popular img.popular{
+    width: 100%;
+    height: auto;
+}
+
+.list_popular p{
+    color: white;
+    margin-left: 20px;
+    margin-top: -5px;
+    flex-grow: 1;
+}
+
+.popular{
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.list_rekomen{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    margin-left: -25px;
+    margin-right: 25px;
+}
+
+.list_rekomen li{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.list_rekomen img.rekomen{
+    width: 100%;
+    height: auto;
+}
+
+.list_rekomen p{
+    color: white;
+    margin-left: 20px;
+    margin-top: -5px;
+    flex-grow: 1;
+}
+
+.rekomen{
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    border-radius: 25px;
+}
